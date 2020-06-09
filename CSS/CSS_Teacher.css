@@ -1,0 +1,318 @@
+/* untuk mendeklarasikan tag body */
+body 
+	{
+		/* untuk memberikan warna background #f1f1f1 pada body */
+		background-color: #f1f1f1;
+		/* untuk memberikan jenis font pada tulisan halaman web */
+		font-family: VErdana, geneva, Arial, Helvetica, sans-serif;
+	}
+
+/* untuk mendeklarasikan tag div, tag h3 dan tag h1 dengan class detail */	
+div.title, h3, div.detail1
+	{
+		/* untuk memberikan jenis font pada tulisan halaman web */
+		font-family: Arial Narrow;
+	}
+
+/* untuk mendeklarasikan tag h1 */		
+div.title
+	{
+		/* untuk memberikan ukuran font sebesar 50 pixel pada tulisan */
+		font-size: 50px;
+		/* untuk memngubah font menjadi bold atau tebal */
+		font-weight: bold;
+	}
+	
+/* untuk mendeklarasikan tag div dengan class detail dan tag h1 dengan class detail */	
+div.detail, div.detail1
+	{
+		/* untuk memberikan ukuran font sebesar 30 pixel pada tulisan */
+		font-size: 32px;
+		/* untuk memngubah font menjadi bold atau tebal */
+		font-weight: bold;
+	}
+	
+/* untuk mendeklarasikan tag h2 */
+h2
+	{
+		/* untuk memberikan jenis font pada tulisan halaman web */
+		font-family: Viner Hand ITC;
+		/* untuk mengubah posisi text ke bagian tengah */
+		text-align: center;
+		/* untuk membuat margin atau jarak secara otomatis */
+		margin: auto;
+	}
+
+/* untuk mendeklarasikan class edt */
+.edt
+	{
+		/* untuk memberikan jenis font pada tulisan halaman web */
+		font-family: Arial Narrow;
+		/* untuk memberikan ukuran font sebesar 20 pixel pada tulisan */
+		font-size: 23px;
+		/* untuk membuat jarak 600 pixel antara garis tepi gambar bagian kiri dengan space kosong */
+		margin-left: 600px;		
+	}
+
+/* untuk mendeklarasikan tag img dengan class hapus */
+img.hapus
+	{
+		/* untuk membuat jarak 600 pixel antara garis tepi gambar bagian kiri dengan space kosong */
+		margin-left: 650px;	
+		/* untuk membuat tinggi gambar menjadi 25 pixel */
+		height: 25px;
+		/* untuk membuat lebar gambar menjadi 30 pixel */
+		width: 30px;
+	}	
+
+/* untuk mendeklarasikan tag img dengan class stuhapus */	
+img.stuhapus
+	{
+		/* untuk membuat jarak 110 pixel antara garis tepi gambar bagian kiri dengan space kosong */
+		margin-left: 110px;	
+		/* untuk membuat jarak 8 pixel antara garis tepi gambar bagian atas dengan space kosong */
+		margin-top: 8px;
+		/* untuk membuat tinggi gambar menjadi 25 pixel */
+		height: 25px;
+		/* untuk membuat lebar gambar menjadi 30 pixel */
+		width: 30px;
+	}
+	
+/* untuk medeklarasikan tag div dengan class atas */
+div.atas
+	{
+		/* untuk membuat tingginya menjadi 54 pixel */
+		height: 54px;
+		/* untuk memberikan warna #333 pada background */
+		background-color: #333;
+		/* untuk memberikan warna text menjadi putih */
+		color: white;
+	}
+
+/* untuk mendeklarasikan tag div dengan class header */
+div.header 
+	{ 
+		/* untuk membuat tinggi header menjadi 60 pixel */
+		height: 60px; 
+		/* untuk memberikan warna tulisan pada header menjadi hitam */
+		color: black; 
+	}
+	
+/* untuk mendeklarasikan tag div dengan class home */
+div.home
+	{
+		/* untuk membuat posisi ke bagian kanan */
+		float: right;
+	}
+
+/* untuk mendeklarasikan tag img dengan class gambar */	
+img.gambar
+	{
+		/* untuk membuat tinggi gambar menjadi 25 pixel */
+		height: 25px;
+		/* untuk membuat lebar gambar menjadi 30 pixel */
+		width: 30px;
+		/* untuk membuat jarak 8 pixel antara garis tepi gambar bagian atas dengan space kosong */
+		margin-top: 8px;
+		/* untuk membuat jarak 60 pixel antara garis tepi gambar bagian kiri dengan space kosong */
+		margin-left: 60px;
+	}
+	
+/* untuk mendeklarasikan tag img dengan class gambar1 */	
+img.gambar1
+	{
+		/* untuk membuat tinggi gambar menjadi 25 pixel */
+		height: 25px;
+		/* untuk membuat lebar gambar menjadi 30 pixel */
+		width: 30px;
+		/* untuk membuat jarak 8 pixel antara garis tepi gambar bagian atas dengan space kosong */
+		margin-top: 8px;
+	}	
+	
+/* untuk mendeklarasikan tag a */		
+a
+	{
+		/* untuk mengubah dekorasi pada text menjadi kosong (tidak ada) */
+		text-decoration: none;
+		/* untuk memberikan warna tulisan pada header menjadi hitam */
+		color: black; 
+	}
+	
+/* untuk mendeklarasikan tag li */	
+li
+	{
+		/* untuk membuat jarak 5 pixel antara garis tepi dengan isi */
+		padding: 5px;
+	}	
+	
+/* untuk mendeklarasikan class content */
+div.content 
+	{
+		/* untuk membuat jarak 40 pixel antara garis tepi dengan isi */
+		padding: 40px; 
+		/* untuk membuat jarak 280 pixel antara garis tepi bagian kiri dengan space kosong */
+		margin-left: 280px;
+		/* untuk membuat jarak 280 pixel antara garis tepi bagian kanan dengan space kosong */
+		margin-right: 280px;
+		/* untuk mengubah warna background menjadi putih */
+		background-color: white;
+		/* untuk mengubah bentuk border bagian pojok dengan radius 10 pixel */
+		border-radius: 10px;
+	}
+
+/* untuk mendeklarasikan tag div dengan class container */	
+div.content div.judul
+	{
+		/* untuk mengubah warna background menjadi #f1f1f1 */
+		background-color: #f1f1f1;
+		/* untuk mengubah bentuk border bagian pojok dengan radius 10 pixel */
+		border-radius: 10px;
+	}	
+
+/* untuk mendeklarasikan tag input dengan class ket */	
+input.ket
+	{
+		/* untuk membuat lebar inputan menjadi 688 pixel */
+		width: 688px;
+		/* untuk membuat tinggi inputan menjadi 50 pixel */
+		height: 50px;
+	}
+
+/* untuk mendeklarasikan tag input dengan class file */	
+input.file
+	{
+		/* untuk membuat jarak 250 pixel antara garis tepi bagian kiri dengan space kosong */
+		margin-left: 250px;
+	}	
+
+/* untuk mendeklarasikan tag form dengan class edit */		
+form.edit
+	{
+		/* untuk membuat jarak 200 pixel antara garis tepi bagian kiri dengan space kosong */
+		margin-left: 150px;
+	}	
+	
+/* untuk mendeklarasikan tag form dengan class edit */		
+input.edit, label
+	{
+		/* untuk membuat jarak 10 pixel antara garis tepi dengan space kosong */
+		margin: 10px;
+		/* untuk membuat lebar inputan menjadi 688 pixel */
+		width: 350px;
+		/* untuk membuat tinggi inputan menjadi 50 pixel */
+		height: 25px; 
+	}
+
+/* untuk mendeklarasikan tag form dengan class edit1 */		
+input.edit1
+	{
+		/* untuk membuat jarak 10 pixel antara garis tepi dengan space kosong */
+		margin: 10px;
+		/* untuk membuat jarak 65 pixel antara garis tepi bagian kiri dengan space kosong */
+		margin-left: 95px;
+	}
+
+/* untuk mendeklarasikan tag div dengan class merah */	
+div.merah
+	{
+		/* untuk mengubah warna text menjadi merah */
+		color: red;
+	}
+	
+/* untuk mendeklarasikan tag div dengan class sidebar */
+div.sidebar
+	{ 
+		/* untuk membuat posisi sidebar ke bagian kiri */
+		float: left;
+		/* untuk mengubah background sidebar menjadi putih */
+		background: white;
+		/* untuk mengubah bentuk border bagian pojok dengan radius 10 pixel */
+		border-radius: 10px;
+	}
+	
+/* untuk mendeklarasikan tag div dengan class sidebar1 */
+div.sidebar1
+	{ 
+		/* untuk membuat posisi sidebar1 ke bagian kanan */
+		float: right;
+		/* untuk mengubah background sidebar1 menjadi putih */
+		background-color: white;
+		/* untuk mengubah bentuk border bagian pojok dengan radius 10 pixel */
+		border-radius: 10px;
+	}
+	
+/* untuk mendeklarasikan tag div dengan class sidebox dan tag div dengan class sidebox1 */
+div.sidebox, div.sidebox1
+	{
+		/* untuk membuat lebar sidebox dan sidebox1 menjadi 200 pixel */
+		width: 200px;
+		/* untuk membuat jarak 25 pixel antara garis tepi dengan isi */
+		padding: 25px;
+	}	
+	
+/* untuk mendeklarasikan tag div dengan class sidebox, tag div dengan class info dan tag div dengan class sidebox1, tag div dengan class info */
+div.sidebox div.info, div.sidebox1 div.info
+	{
+		/* untuk mengubah ukuran font menjadi 19 pixel */
+		font-size: 19px; 
+		/* untuk membuat warna text menjadi hitam */
+		color: black; 
+		/* untuk membuat jarak -50 pixel antara garis tepi bagian kiri dengan space kosong */
+		margin-left: -50px;
+	}
+	
+/* untuk mendeklarasikan tag input */
+input
+	{
+		/* untuk mengubah bentuk border bagian pojok dengan radius 5 pixel */
+		border-radius: 5px;
+		/* untuk membuat lebar inputan menjadi 188 pixel */
+		width: 188px;
+	}
+	
+/* untuk mendeklarasikan tag div dengan class box dan tag div dengan class box1 */	
+div.sidebar div.sidebox div.box, div.sidebar div.sidebox div.box1, div.sidebar1 div.sidebox1 div.box, div.sidebar1 div.sidebox1 div.box1
+	{
+		/* untuk mengubah background menjadi #f1f1f1 */
+		background-color: #f1f1f1;
+		/* untuk mengubah bentuk border bagian pojok dengan radius 10 pixel */
+		border-radius: 10px;		
+	}
+
+/* untuk mendeklarasikan tag div dengan class level dan tag p dengan class profil */	
+div.level, p.profil
+	{
+		/* untuk membuat jarak 50 pixel antara garis tepi bagian kiri dengan space kosong */
+		margin-left: 50px;
+	}
+	
+/* untuk mendeklarasikan tag p dengan class garis */
+p.garis
+	{
+		/* untuk membuat garis pada tag p, class garis dengan ukuran 1 pixel garis putus-putus warna hitam */
+		border: 1px dashed black;
+		/* untuk membuat jarak -10 pixel antara garis tepi bagian kiri dengan space kosong */
+		margin-left: -1px;
+		/* untuk membuat jarak -10 pixel antara garis tepi bagian kanan dengan space kosong */
+		margin-right: -1px;
+	}
+	
+ /* untuk mendeklarasikan tag div dengan class batas */
+div.footer
+	{
+		/* untuk mengubah warna background menjadi abu-abu */
+		background-color: gray;
+		/* untuk membuat jarak 13 pixel antara garis tepi dengan isi */
+		padding: 13px;
+		/* untuk membuat jarak -5 pixel pada bagian atas dengan space kosong */
+		margin-top: 180px;
+	}
+	
+ /* untuk mendeklarasikan tag div dengan class ukuran */	
+div.ukuran
+	{
+		/* untuk mengubah posisi text ke bagian tengah */
+		text-align: center;
+		/* untuk mengubah style text menjadi italic (miring) */
+		font-style: italic;
+	}
